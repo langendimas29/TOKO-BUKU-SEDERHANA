@@ -1,0 +1,81 @@
+# Database Configuration
+config/config.php
+
+# Uploaded Files
+public/images/*
+!public/images/.gitkeep
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# IDE & Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-settings
+
+# OS Files
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# PHP
+*.phar
+/vendor
+/composer.lock
+composer.phar
+
+# Logs
+*.log
+logs/
+error.log
+
+# Temporary Files
+temp/
+tmp/
+cache/
+.cache/
+
+# Node (if used for build tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build
+dist/
+build/
+
+# OS Generated Files
+.htaccess
+.htpasswd
+
+# Session Files
+sessions/*
+!sessions/.gitkeep
+
+# Test Coverage
+coverage/
+.coverage
+
+# Misc
+*.bak
+*.tmp
+*.swp
+*~
+.DS_Store
